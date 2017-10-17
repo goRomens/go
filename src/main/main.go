@@ -32,7 +32,7 @@ func BIHandle(w http.ResponseWriter, req *http.Request) {
 				}
 			//}
 
-			fmt.Fprintf(w,ReturnClient("服务端出现错误，请联系管理员",""))
+			fmt.Fprintf(w,ReturnClient("服务端出现错误，请联系管理员222",""))
 		}
 	}()
 	result, _:= ioutil.ReadAll(req.Body)
